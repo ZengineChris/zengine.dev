@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2024-04-16T16:31:35+02:00
 title = "Go Project Structure"
 description = ""

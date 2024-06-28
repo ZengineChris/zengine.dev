@@ -1,6 +1,10 @@
-# note: never use the :latest tag in a production site
-FROM caddy:2.7.6-alpine
+FROM hugomods/hugo:exts
 
-COPY Caddyfile /etc/caddy/Caddyfile
-COPY public /srv
+COPY . /src
+
+# Uncomment below to install dependencies via NPM, it depends on your site.
+# RUN npm i
+
+# Build site.
+RUN hugo --minify 
 

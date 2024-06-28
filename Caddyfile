@@ -1,4 +1,4 @@
-localhost
+:9001
 
 file_server browse {
    root  /srv

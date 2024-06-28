@@ -2,7 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jetpack-io/devbox/0.10.3/.schema/devbox.schema.json",
   "packages": [
     "dagger@latest",
-    "hugo@latest"
+    "hugo@latest",
+    "doppler@latest",
+    "timoni@latest",
+    "fluxcd@latest"
   ],
   "shell": {
     "init_hook": [

@@ -47,18 +47,32 @@ func (m *Zengine) Release(ctx context.Context, dir *Directory) string {
 		fmt.Println(err)
 	}
 
-    fmt.Println(version)
+	fmt.Println(version)
 
-	return version
+	foo, err := dag.
+		Buildx().
+		Build(ctx, dir, "ghcr.io/zenginedev/website:0.0.1")
+
+	if err != nil {
+		fmt.Println(err)
+	}
+	// build a docker container
+
+	fmt.Println(foo)
 
 	// store the next version in a var
+	return version
 
 }
 
-// TODO Run the Hugo build command
+func (m *Zengine) BuildImage(ctx context.Context, dir *Directory, token *Secret) (string, error) {
+	ops := DockerBuildPublishOpts{Tags: []string{"0.0.4"}}
 
-// Build a container from the docker file
-
-// Upload the image to the registry
-
-// Set the new Version for the deployment
+	return dag.Docker(DockerOpts{
+		Registry: "ghcr.io",
+		Username: "ZengineChris",
+		Password: token,
+	}).
+		Build(dir).
+		Publish(ctx, "ghcr.io/zenginedev/website", ops)
+}

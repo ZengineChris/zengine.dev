@@ -16,6 +16,76 @@
             "date": 1713304808689,
             "name": "/Users/christian/.tabby-client/agent/logs/20240417.0.log",
             "hash": "9467dd0e817b1971b7d0daa637e3177e"
+        },
+        {
+            "date": 1713384766884,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240417.1.log",
+            "hash": "74e46d28e77560d18562b32dec7604e0"
+        },
+        {
+            "date": 1713545836352,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240419.0.log",
+            "hash": "359b265fcaf4ee0ccf02c80f41d1fdf0"
+        },
+        {
+            "date": 1713564008267,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240420.0.log",
+            "hash": "c66a756aa038650f3c7727487664788c"
+        },
+        {
+            "date": 1713707595674,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240421.0.log",
+            "hash": "e5f47d7734d8c19c7669a6cf2dff633f"
+        },
+        {
+            "date": 1713736922282,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240422.0.log",
+            "hash": "dfdde422ac571f437050271ff17ddb82"
+        },
+        {
+            "date": 1713823228864,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240423.0.log",
+            "hash": "9a7da69036b63f449536c828f35c0099"
+        },
+        {
+            "date": 1713910096647,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240424.0.log",
+            "hash": "63105d01216101bc3f3901b91d8f9536"
+        },
+        {
+            "date": 1713996062379,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240425.0.log",
+            "hash": "75eabc7820098a5362bbecfb925db431"
+        },
+        {
+            "date": 1714082422111,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240426.0.log",
+            "hash": "135ed31deea34fad61ff7e08132e6219"
+        },
+        {
+            "date": 1714168824368,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240427.0.log",
+            "hash": "b61d72b80aa7368737754b9a8b47161e"
+        },
+        {
+            "date": 1714255451345,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240428.0.log",
+            "hash": "b49893f29021d7c5a1def1ba77486f90"
+        },
+        {
+            "date": 1714342398516,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240429.0.log",
+            "hash": "471551bcf68e908baf1bad4b55296f36"
+        },
+        {
+            "date": 1714428014844,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240430.0.log",
+            "hash": "1ffc7263cc7bc9c1f5ebfadf046f8f63"
+        },
+        {
+            "date": 1714514422102,
+            "name": "/Users/christian/.tabby-client/agent/logs/20240501.0.log",
+            "hash": "c0b2f58510b6010416ca185388e67252"
         }
     ]
 }

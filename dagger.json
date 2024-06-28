@@ -3,6 +3,18 @@
   "sdk": "go",
   "dependencies": [
     {
+      "name": "docker",
+      "source": "github.com/purpleclay/daggerverse/docker@43c1c55dadf15afc9ba401dc59e04baaa3802cca"
+    },
+    {
+      "name": "buildx",
+      "source": "github.com/tsirysndr/daggerverse/buildx@86c5ac1711b1939825e03e30f7eea540ad1b0638"
+    },
+    {
+      "name": "devbox",
+      "source": "github.com/tsirysndr/daggerverse/devbox@249c3e3d940b1aaf08a4c0ab3a6e6bf02d81ecb6"
+    },
+    {
       "name": "nsv",
       "source": "github.com/purpleclay/daggerverse/nsv@43c1c55dadf15afc9ba401dc59e04baaa3802cca"
     }
