@@ -1,11 +1,11 @@
 module dagger/zengine
 
-go 1.22.0
+go 1.22.5
 
 toolchain go1.23.1
 
 require (
-	github.com/99designs/gqlgen v0.17.49
+	github.com/99designs/gqlgen v0.17.51
 	github.com/Khan/genqlient v0.7.0
 	github.com/vektah/gqlparser/v2 v2.5.16
 	go.opentelemetry.io/otel v1.30.0
